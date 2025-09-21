@@ -1,0 +1,115 @@
+.main{
+   margin:  0 auto;  
+   width:  80vw;
+  justify-content: center; 
+  align-items: center; 
+  flex-direction: column; 
+  text-align: center;
+}
+.presentacion{
+    max-width: 1000px;
+    margin: 0 auto; 
+    text-align: justify;
+}
+.conocimientos
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.experiencia{
+    align-items: center; 
+    max-width: 1000px;
+    margin: 0 auto; 
+    text-align: justify;
+}
+
+.main img{
+    border: 2px solid #6d7296;
+    border-radius: 50%;
+}
+.menu{
+    width: 98vw;
+    height: 10vh;
+    background-color: #191c32;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 2mm;
+}
+.menu li{
+    list-style: none;  
+}
+.lista a{
+    color: #fff;
+    text-decoration: none;
+}
+#titulo{
+    color: #6d7296;
+}
+.lista{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+body{
+    background-color: rgb(160, 166, 170);
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.6px;
+    line-height: 1.6;
+}
+body h2{
+    color:#11163f;
+    font-size:x-large;
+}
+
+#formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+#formulario div {
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 15px;
+}
+#formulario label {
+    display: block; 
+    margin-bottom: 5px;
+}
+#formulario input,
+#formulario textarea {
+    width: 100%; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+#formulario button {
+    background-color: #191c32; 
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%;
+    max-width: 400px; 
+}
+
+footer{
+    width: 100vw;
+    height:50vh;
+    background-color: #191c32;
+    color: #fff;
+    padding: 1mm;
+}
+#redes div {
+    display: flex;
+    align-items: center; 
+    margin: 0.1%;
+}
+footer img{
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0.5%;
+    border-radius: 50%;
+}
